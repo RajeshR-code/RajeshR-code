@@ -16,11 +16,18 @@
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
       <circle cx="1" cy="1" r="1" fill="#A8D9F5" fill-opacity=".12"/>
     </pattern>
+    <clipPath id="accentClip">
+      <rect x="75" y="169" width="82" height="3" rx="1.5"/>
+    </clipPath>
   </defs>
 
   <rect width="1200" height="360" rx="22" fill="url(#background)"/>
   <rect width="1200" height="360" rx="22" fill="url(#grid)"/>
-  <circle cx="1010" cy="164" r="220" fill="url(#glow)"/>
+  <circle cx="1010" cy="164" r="220" fill="url(#glow)">
+    <animate attributeName="cx" values="990;1030;990" dur="18s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="150;178;150" dur="18s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".75;1;.75" dur="9s" repeatCount="indefinite"/>
+  </circle>
   <path d="M0 316C192 266 365 359 574 310S951 249 1200 302V360H0V316Z" fill="#07182C" fill-opacity=".55"/>
   <path d="M0 316C192 266 365 359 574 310S951 249 1200 302" stroke="#7CD8F4" stroke-opacity=".15"/>
 
@@ -28,6 +35,9 @@
     <text x="72" y="106" fill="#F4F9FF" font-size="46" font-weight="700" letter-spacing=".2">RAJESH RANJAN</text>
     <text x="75" y="148" fill="#8DE5E0" font-size="21" font-weight="600" letter-spacing="1.1">DEVSECOPS ENGINEER</text>
     <rect x="75" y="169" width="82" height="3" rx="1.5" fill="url(#accent)"/>
+    <rect x="48" y="169" width="28" height="3" rx="1.5" fill="#FFFFFF" fill-opacity=".48" clip-path="url(#accentClip)">
+      <animate attributeName="x" values="48;157;48" dur="6s" repeatCount="indefinite"/>
+    </rect>
 
     <text x="75" y="207" fill="#9FC5E2" font-size="12" font-weight="700" letter-spacing="2">CLOUD · AUTOMATION · CONTAINERS</text>
     <text x="75" y="237" fill="#E0ECF7" font-size="16" font-weight="500">Azure  ·  AWS  ·  Terraform  ·  GitHub Actions</text>
@@ -42,18 +52,30 @@
 
     <g font-family="Segoe UI, Arial, sans-serif">
       <circle cx="778" cy="137" r="11" fill="#12364F" stroke="#63D7EA" stroke-opacity=".8"/>
+      <circle cx="778" cy="137" r="11" fill="none" stroke="#63D7EA" stroke-opacity=".35">
+        <animate attributeName="r" values="11;17;11" dur="4.8s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values=".35;0;.35" dur="4.8s" repeatCount="indefinite"/>
+      </circle>
       <path d="M772 138C772 134.7 774.7 132 778 132C781.3 132 784 134.7 784 138M778 129V133M770 142H786" stroke="#9AE9EA" stroke-width="1.5" stroke-linecap="round"/>
       <text x="801" y="135" fill="#E6F1FA" font-size="14" font-weight="600">Cloud platforms</text>
       <text x="801" y="153" fill="#9FBAD0" font-size="12">Azure · AWS · Hybrid infrastructure</text>
       <path d="M765 169H1107" stroke="#A7DDFC" stroke-opacity=".11"/>
 
       <circle cx="778" cy="194" r="11" fill="#12364F" stroke="#63D7EA" stroke-opacity=".8"/>
+      <circle cx="778" cy="194" r="11" fill="none" stroke="#63D7EA" stroke-opacity=".35">
+        <animate attributeName="r" values="11;17;11" dur="4.8s" begin="1.6s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values=".35;0;.35" dur="4.8s" begin="1.6s" repeatCount="indefinite"/>
+      </circle>
       <path d="M774 190H782V198H774ZM776 188V190M780 198V200" stroke="#9AE9EA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
       <text x="801" y="192" fill="#E6F1FA" font-size="14" font-weight="600">Infrastructure &amp; delivery</text>
       <text x="801" y="210" fill="#9FBAD0" font-size="12">Terraform · CI/CD · GitHub Actions</text>
       <path d="M765 226H1107" stroke="#A7DDFC" stroke-opacity=".11"/>
 
       <circle cx="778" cy="251" r="11" fill="#12364F" stroke="#63D7EA" stroke-opacity=".8"/>
+      <circle cx="778" cy="251" r="11" fill="none" stroke="#63D7EA" stroke-opacity=".35">
+        <animate attributeName="r" values="11;17;11" dur="4.8s" begin="3.2s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values=".35;0;.35" dur="4.8s" begin="3.2s" repeatCount="indefinite"/>
+      </circle>
       <path d="M773 247H783V255H773ZM776 245V247M780 255V257M775 250H781M775 253H781" stroke="#9AE9EA" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
       <text x="801" y="249" fill="#E6F1FA" font-size="14" font-weight="600">Containers, security &amp; GitOps</text>
       <text x="801" y="267" fill="#9FBAD0" font-size="12">Kubernetes · Helm · Argo CD</text>
