@@ -2,41 +2,74 @@
 
 # Rajesh Ranjan
 
-### Software Engineer · DevSecOps · Applied AI
+### Azure Cloud Platform · DevSecOps · Infrastructure as Code
 
-**5 years of experience building software — focused on making delivery more secure, systems more reliable, and AI more useful.**
+**Building secure, governed, resilient, and cost-aware cloud foundations across Azure, on-premises datacenters, and hybrid workloads.**
 
-[![GitHub](https://img.shields.io/badge/GitHub-RajeshR--code-181717?style=flat&logo=github)](https://github.com/RajeshR-code)
+[![Azure](https://img.shields.io/badge/Azure-Cloud%20Platform-0078D4?style=flat&logo=microsoftazure&logoColor=white)](https://azure.microsoft.com/)
+[![Terraform](https://img.shields.io/badge/Terraform-Infrastructure%20as%20Code-7B42BC?style=flat&logo=terraform&logoColor=white)](https://www.terraform.io/)
+[![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-Delivery%20Pipelines-0078D7?style=flat&logo=azuredevops&logoColor=white)](https://azure.microsoft.com/products/devops)
+[![GitHub](https://img.shields.io/badge/GitHub-RajeshR--code-181717?style=flat&logo=github&logoColor=white)](https://github.com/RajeshR-code)
 
 </div>
 
 ---
 
-## About
+## 👋 About me
 
-I’m a software engineer with **5 years of experience** and a growing focus on **DevSecOps and practical AI**. I care about building systems that are not only functional, but secure, dependable, and maintainable.
+I’m **Rajesh Ranjan**, a cloud and DevSecOps professional with **5 years of experience**. I focus on designing and automating Azure platform foundations that help teams run workloads securely and reliably—from tenant governance and identity to networking, delivery pipelines, operations, and cost management.
 
-I’m expanding my expertise across secure software delivery and AI-enabled engineering, with an emphasis on applying the right tool to a real problem—not adding technology for its own sake.
+My approach is practical: establish clear guardrails, automate repeatable platform patterns, and build for the needs of both cloud and on-premises workloads.
 
-## What I’m focused on
+## 🧭 Cloud platform & landing zones
 
-| DevSecOps | Applied AI |
+I work across the cloud adoption lifecycle—**Strategy, Plan, Ready, Adopt, Govern, Secure, and Manage**—to support scalable and well-governed environments.
+
+- **Tenant and subscription design:** tenant boundaries, management group hierarchy, platform and application subscriptions, and subscription onboarding/offboarding.
+- **Governance:** Azure Policy and initiatives, assignment strategy, justified policy exemptions, and management group best practices.
+- **Identity and access:** Microsoft Entra ID, user and group management, RBAC group design, least privilege, and Defender.
+- **Operational foundations:** scalable, portable, highly available, monitored, backed-up, compliant, and cost-optimised workloads.
+
+## 🌐 Networking & hybrid connectivity
+
+- Hub-and-spoke architecture with shared connectivity and centralized inspection.
+- IP address management, CIDR planning, and on-premises network assessment.
+- Hub and spoke VNets, peering, user-defined routes, firewall rules, and controlled egress.
+- Private DNS zones, Private Endpoints, VPN Gateway, and ExpressRoute.
+
+## 🔐 DevSecOps & Terraform automation
+
+- Reusable Terraform modules and automated Azure landing zone deployments.
+- Remote state with encryption at rest and least-privilege access.
+- Azure Repos and Azure DevOps pipelines for validation, testing, build, deployment, apply, and rollback.
+- Branch policies, mandatory pull requests, code owners, reviewer requirements, and short-lived feature branches.
+- Pipeline practices including linting, secret scanning, cost checks, drift detection, manual approvals, and parallel jobs.
+
+## 🚚 Cloud migration
+
+Planning and delivery support across discovery, assessment, readiness, migration strategy, cutover, and hypercare—with **pre-migration, in-flight, and post-migration checklists**.
+
+## 💰 FinOps, resilience & operations
+
+| Focus | Practices |
 |---|---|
-| Security integrated into the software delivery lifecycle | Large language model (LLM) integrations |
-| CI/CD security and automation | Retrieval-augmented generation (RAG) |
-| Infrastructure as code and cloud security | Model Context Protocol (MCP) |
-| Container and Kubernetes security | AI agents and tool-enabled workflows |
-| Observability, reliability, and continuous improvement | Responsible, useful AI in developer workflows |
+| **Cost optimisation** | Find idle resources, unattached disks, oversized compute, and unnecessary log ingestion; review VM schedules, reserved capacity, and backup retention. |
+| **Backup & disaster recovery** | Select appropriate LRS, ZRS, or GRS options; define recovery plans around RTO and RPO. |
+| **High availability** | Plan primary and secondary regions and use patterns such as Virtual Machine Scale Sets (VMSS) where appropriate. |
+| **Monitoring** | Use Azure Monitor to support visibility, alerting, and operational follow-through. |
 
-## How I approach engineering
+## 🧰 Core areas
 
-- **Security by design:** bring security checks closer to development and delivery.
-- **Automation with purpose:** reduce repetitive work without making systems harder to understand.
-- **Practical AI:** use RAG, MCP, and agents where they provide measurable value.
-- **Continuous learning:** keep building, testing, and improving in public.
+`Microsoft Azure` · `Azure Landing Zones` · `Azure Policy` · `Microsoft Entra ID` · `RBAC` · `Hub-and-Spoke Networking` · `Terraform` · `Azure DevOps` · `Cloud Migration` · `FinOps` · `Azure Monitor` · `Backup & Disaster Recovery`
 
-## Let’s connect
+---
 
-Interested in **DevSecOps, cloud and application security, platform engineering, or practical AI**? I’d be glad to connect and exchange ideas.
+<div align="center">
 
-[Find me on GitHub →](https://github.com/RajeshR-code)
+### Let’s connect
+
+Open to conversations about **Azure platform engineering, landing zones, cloud governance, DevSecOps, and hybrid cloud**.
+
+[GitHub](https://github.com/RajeshR-code)
+
+</div>
