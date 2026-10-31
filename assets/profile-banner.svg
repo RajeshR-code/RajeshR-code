@@ -27,8 +27,8 @@
     <text x="72" y="112" fill="#F4F9FF" font-size="43" font-weight="700" letter-spacing=".3">RAJESH RANJAN</text>
     <text x="74" y="151" fill="#8DE5E0" font-size="20" font-weight="600" letter-spacing=".8">DEVSECOPS ENGINEER</text>
     <rect x="74" y="170" width="76" height="3" rx="1.5" fill="url(#accent)"/>
-    <text x="74" y="204" fill="#D6E8F7" font-size="16" font-weight="500">Azure  ·  Terraform  ·  CI/CD  ·  GitHub Actions</text>
-    <text x="74" y="232" fill="#D6E8F7" font-size="16" font-weight="500">Docker  ·  Kubernetes  ·  Argo CD  ·  GitOps  ·  Helm</text>
+    <text x="74" y="204" fill="#D6E8F7" font-size="16" font-weight="500">Azure  ·  AWS  ·  Terraform  ·  GitHub Actions</text>
+    <text x="74" y="232" fill="#D6E8F7" font-size="16" font-weight="500">Docker  ·  Kubernetes  ·  Helm  ·  Argo CD  ·  GitOps</text>
     <text x="74" y="270" fill="#AFC9DE" font-size="13">Secure platforms. Automated delivery. Resilient workloads.</text>
   </g>
 
