@@ -58,9 +58,13 @@ Planning and delivery support across discovery, assessment, readiness, migration
 | **High availability** | Plan primary and secondary regions and use patterns such as Virtual Machine Scale Sets (VMSS) where appropriate. |
 | **Monitoring** | Use Azure Monitor to support visibility, alerting, and operational follow-through. |
 
+## 🤖 Applied AI
+
+Exploring practical AI alongside cloud engineering: **LLM-powered workflows, retrieval-augmented generation (RAG), Model Context Protocol (MCP), and AI agents**—with an emphasis on useful, responsible applications for engineering and operations.
+
 ## 🧰 Core areas
 
-`Microsoft Azure` · `Azure Landing Zones` · `Azure Policy` · `Microsoft Entra ID` · `RBAC` · `Hub-and-Spoke Networking` · `Terraform` · `Azure DevOps` · `Cloud Migration` · `FinOps` · `Azure Monitor` · `Backup & Disaster Recovery`
+`Microsoft Azure` · `Azure Landing Zones` · `Azure Policy` · `Microsoft Entra ID` · `RBAC` · `Hub-and-Spoke Networking` · `Terraform` · `Azure DevOps` · `Cloud Migration` · `FinOps` · `Azure Monitor` · `Backup & Disaster Recovery` · `LLMs` · `RAG` · `MCP` · `AI Agents`
 
 ---
 
