@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-banner.svg" alt="Rajesh Ranjan — DevSecOps Engineer: Azure, AWS, Terraform, GitHub Actions, Docker, Kubernetes, Helm, Argo CD, and GitOps" width="100%">
+<img src="./assets/profile-banner.svg" alt="Rajesh Ranjan — DevSecOps Engineer focused on Azure, AWS, Terraform, GitHub Actions, Docker, Kubernetes, Helm, Argo CD, and GitOps" width="100%">
 
 ### DevSecOps Engineer · Azure Cloud Platform · Infrastructure as Code
 

@@ -1,73 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none">
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
       <stop stop-color="#081426"/>
       <stop offset=".58" stop-color="#102B4C"/>
       <stop offset="1" stop-color="#123E67"/>
     </linearGradient>
-    <linearGradient id="accent" x1="64" y1="90" x2="570" y2="245" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#69D4FF"/>
-      <stop offset="1" stop-color="#86F7D2"/>
+    <linearGradient id="accent" x1="72" y1="0" x2="600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#68D5FF"/>
+      <stop offset="1" stop-color="#80F0CD"/>
     </linearGradient>
-    <linearGradient id="node" x1="800" y1="70" x2="1080" y2="250" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#53C9F5"/>
-      <stop offset="1" stop-color="#63E6BE"/>
+    <linearGradient id="glow" x1="790" y1="24" x2="1140" y2="338" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#35BFEA" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#52E4BE" stop-opacity=".04"/>
     </linearGradient>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
       <circle cx="1" cy="1" r="1" fill="#A8D9F5" fill-opacity=".12"/>
     </pattern>
   </defs>
 
-  <rect width="1200" height="320" rx="22" fill="url(#background)"/>
-  <rect width="1200" height="320" rx="22" fill="url(#grid)"/>
-  <path d="M0 278C190 224 365 340 570 278S938 205 1200 268V320H0V278Z" fill="#0A1D34" fill-opacity=".48"/>
-  <path d="M0 278C190 224 365 340 570 278S938 205 1200 268" stroke="#7CD8F4" stroke-opacity=".16"/>
+  <rect width="1200" height="360" rx="22" fill="url(#background)"/>
+  <rect width="1200" height="360" rx="22" fill="url(#grid)"/>
+  <circle cx="1010" cy="164" r="220" fill="url(#glow)"/>
+  <path d="M0 316C192 266 365 359 574 310S951 249 1200 302V360H0V316Z" fill="#07182C" fill-opacity=".55"/>
+  <path d="M0 316C192 266 365 359 574 310S951 249 1200 302" stroke="#7CD8F4" stroke-opacity=".15"/>
 
   <g font-family="Segoe UI, Arial, sans-serif">
-    <text x="72" y="112" fill="#F4F9FF" font-size="43" font-weight="700" letter-spacing=".3">RAJESH RANJAN</text>
-    <text x="74" y="151" fill="#8DE5E0" font-size="20" font-weight="600" letter-spacing=".8">DEVSECOPS ENGINEER</text>
-    <rect x="74" y="170" width="76" height="3" rx="1.5" fill="url(#accent)"/>
-    <text x="74" y="204" fill="#D6E8F7" font-size="16" font-weight="500">Azure  ·  AWS  ·  Terraform  ·  GitHub Actions</text>
-    <text x="74" y="232" fill="#D6E8F7" font-size="16" font-weight="500">Docker  ·  Kubernetes  ·  Helm  ·  Argo CD  ·  GitOps</text>
-    <text x="74" y="270" fill="#AFC9DE" font-size="13">Secure platforms. Automated delivery. Resilient workloads.</text>
-  </g>
+    <text x="72" y="106" fill="#F4F9FF" font-size="46" font-weight="700" letter-spacing=".2">RAJESH RANJAN</text>
+    <text x="75" y="148" fill="#8DE5E0" font-size="21" font-weight="600" letter-spacing="1.1">DEVSECOPS ENGINEER</text>
+    <rect x="75" y="169" width="82" height="3" rx="1.5" fill="url(#accent)"/>
 
-  <g stroke="url(#node)" stroke-opacity=".58" stroke-width="2">
-    <path d="M820 155H914"/>
-    <path d="M914 155L1000 91"/>
-    <path d="M914 155L1010 155"/>
-    <path d="M914 155L1000 220"/>
-    <path d="M820 155L770 92"/>
-    <path d="M820 155L770 220"/>
-    <path d="M1000 91H1085"/>
-    <path d="M1010 155H1100"/>
-    <path d="M1000 220H1085"/>
-  </g>
-
-  <g fill="#102B4C" stroke="url(#node)" stroke-width="2">
-    <circle cx="770" cy="92" r="7"/>
-    <circle cx="770" cy="220" r="7"/>
-    <circle cx="1000" cy="91" r="7"/>
-    <circle cx="1010" cy="155" r="7"/>
-    <circle cx="1000" cy="220" r="7"/>
-    <circle cx="1085" cy="91" r="5"/>
-    <circle cx="1100" cy="155" r="5"/>
-    <circle cx="1085" cy="220" r="5"/>
+    <text x="75" y="207" fill="#9FC5E2" font-size="12" font-weight="700" letter-spacing="2">CLOUD · AUTOMATION · CONTAINERS</text>
+    <text x="75" y="237" fill="#E0ECF7" font-size="16" font-weight="500">Azure  ·  AWS  ·  Terraform  ·  GitHub Actions</text>
+    <text x="75" y="264" fill="#E0ECF7" font-size="16" font-weight="500">Docker  ·  Kubernetes  ·  Helm  ·  Argo CD  ·  GitOps</text>
+    <text x="75" y="307" fill="#B7CCDF" font-size="14">Secure cloud foundations. Automated delivery. Reliable systems.</text>
   </g>
 
   <g>
-    <circle cx="914" cy="155" r="39" fill="#0D2742" stroke="url(#node)" stroke-width="2"/>
-    <path d="M914 130L933 138V152C933 165 925 175 914 180C903 175 895 165 895 152V138L914 130Z" fill="#153A59" stroke="#8CE9DD" stroke-width="2"/>
-    <path d="M906 153L912 159L923 146" stroke="#D8FFF5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-  </g>
+    <rect x="735" y="54" width="402" height="252" rx="18" fill="#091B30" fill-opacity=".68" stroke="#A7DDFC" stroke-opacity=".18"/>
+    <text x="765" y="88" fill="#A9C9E1" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">ENGINEERING FOCUS</text>
+    <path d="M765 105H1107" stroke="#A7DDFC" stroke-opacity=".15"/>
 
-  <g font-family="Segoe UI, Arial, sans-serif" fill="#B5D7EE" font-size="10" font-weight="600" letter-spacing="1.2">
-    <text x="742" y="68">HYBRID</text>
-    <text x="1022" y="69">GOVERN</text>
-    <text x="1051" y="137">SECURE</text>
-    <text x="1024" y="251">AUTOMATE</text>
+    <g font-family="Segoe UI, Arial, sans-serif">
+      <circle cx="778" cy="137" r="11" fill="#12364F" stroke="#63D7EA" stroke-opacity=".8"/>
+      <path d="M772 138C772 134.7 774.7 132 778 132C781.3 132 784 134.7 784 138M778 129V133M770 142H786" stroke="#9AE9EA" stroke-width="1.5" stroke-linecap="round"/>
+      <text x="801" y="135" fill="#E6F1FA" font-size="14" font-weight="600">Cloud platforms</text>
+      <text x="801" y="153" fill="#9FBAD0" font-size="12">Azure · AWS · Hybrid infrastructure</text>
+      <path d="M765 169H1107" stroke="#A7DDFC" stroke-opacity=".11"/>
+
+      <circle cx="778" cy="194" r="11" fill="#12364F" stroke="#63D7EA" stroke-opacity=".8"/>
+      <path d="M774 190H782V198H774ZM776 188V190M780 198V200" stroke="#9AE9EA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="801" y="192" fill="#E6F1FA" font-size="14" font-weight="600">Infrastructure &amp; delivery</text>
+      <text x="801" y="210" fill="#9FBAD0" font-size="12">Terraform · CI/CD · GitHub Actions</text>
+      <path d="M765 226H1107" stroke="#A7DDFC" stroke-opacity=".11"/>
+
+      <circle cx="778" cy="251" r="11" fill="#12364F" stroke="#63D7EA" stroke-opacity=".8"/>
+      <path d="M773 247H783V255H773ZM776 245V247M780 255V257M775 250H781M775 253H781" stroke="#9AE9EA" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="801" y="249" fill="#E6F1FA" font-size="14" font-weight="600">Containers, security &amp; GitOps</text>
+      <text x="801" y="267" fill="#9FBAD0" font-size="12">Kubernetes · Helm · Argo CD</text>
+    </g>
   </g>
 
   <path d="M1166 0H1200V34" stroke="#80E5D2" stroke-opacity=".65" stroke-width="2"/>
-  <path d="M0 286V320H34" stroke="#80E5D2" stroke-opacity=".42" stroke-width="2"/>
+  <path d="M0 326V360H34" stroke="#80E5D2" stroke-opacity=".42" stroke-width="2"/>
 </svg>
