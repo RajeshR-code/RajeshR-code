@@ -1,14 +1,18 @@
 <div align="center">
 
-<img src="./assets/profile-banner.svg" alt="Rajesh Ranjan — Azure cloud platform engineering, DevSecOps, and Terraform" width="100%">
+<img src="./assets/profile-banner.svg" alt="Rajesh Ranjan — DevSecOps Engineer: Azure, Terraform, CI/CD, GitHub Actions, Docker, Kubernetes, Argo CD, GitOps, and Helm" width="100%">
 
-### Azure Cloud Platform · DevSecOps · Infrastructure as Code
+### DevSecOps Engineer · Azure Cloud Platform · Infrastructure as Code
 
 **Building secure, governed, resilient, and cost-aware cloud foundations across Azure, on-premises datacenters, and hybrid workloads.**
 
 [![Azure](https://img.shields.io/badge/Azure-Cloud%20Platform-0078D4?style=flat&logo=microsoftazure&logoColor=white)](https://azure.microsoft.com/)
 [![Terraform](https://img.shields.io/badge/Terraform-Infrastructure%20as%20Code-7B42BC?style=flat&logo=terraform&logoColor=white)](https://www.terraform.io/)
-[![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-Delivery%20Pipelines-0078D7?style=flat&logo=azuredevops&logoColor=white)](https://azure.microsoft.com/products/devops)
+[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-2088FF?style=flat&logo=githubactions&logoColor=white)](https://github.com/features/actions)
+[![Docker](https://img.shields.io/badge/Docker-Containers-2496ED?style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-326CE5?style=flat&logo=kubernetes&logoColor=white)](https://kubernetes.io/)
+[![Argo CD](https://img.shields.io/badge/Argo%20CD-GitOps-EF7B4D?style=flat&logo=argo&logoColor=white)](https://argo-cd.readthedocs.io/)
+[![Helm](https://img.shields.io/badge/Helm-Charts-0F1689?style=flat&logo=helm&logoColor=white)](https://helm.sh/)
 [![GitHub](https://img.shields.io/badge/GitHub-RajeshR--code-181717?style=flat&logo=github&logoColor=white)](https://github.com/RajeshR-code)
 
 </div>
@@ -17,7 +21,7 @@
 
 ## 👋 About me
 
-I’m **Rajesh Ranjan**, a cloud and DevSecOps professional with **5 years of experience**. I focus on designing and automating Azure platform foundations that help teams run workloads securely and reliably—from tenant governance and identity to networking, delivery pipelines, operations, and cost management.
+I’m **Rajesh Ranjan**, a **DevSecOps Engineer** with **5 years of experience**. I focus on designing and automating secure Azure platform foundations and delivery workflows—from tenant governance and identity to networking, CI/CD, container platforms, operations, and cost management.
 
 My approach is practical: establish clear guardrails, automate repeatable platform patterns, and build for the needs of both cloud and on-premises workloads.
 
@@ -41,7 +45,9 @@ I work across the cloud adoption lifecycle—**Strategy, Plan, Ready, Adopt, Gov
 
 - Reusable Terraform modules and automated Azure landing zone deployments.
 - Remote state with encryption at rest and least-privilege access.
-- Azure Repos and Azure DevOps pipelines for validation, testing, build, deployment, apply, and rollback.
+- CI/CD with GitHub Actions and Azure DevOps for validation, testing, build, deployment, apply, and rollback.
+- Docker container workflows and Kubernetes orchestration, with Helm charts for repeatable application deployments.
+- GitOps delivery patterns using Argo CD to keep deployed environments aligned with version-controlled configuration.
 - Branch policies, mandatory pull requests, code owners, reviewer requirements, and short-lived feature branches.
 - Pipeline practices including linting, secret scanning, cost checks, drift detection, manual approvals, and parallel jobs.
 
@@ -64,7 +70,7 @@ Exploring practical AI alongside cloud engineering: **LLM-powered workflows, ret
 
 ## 🧰 Core areas
 
-`Microsoft Azure` · `Azure Landing Zones` · `Azure Policy` · `Microsoft Entra ID` · `RBAC` · `Hub-and-Spoke Networking` · `Terraform` · `Azure DevOps` · `Cloud Migration` · `FinOps` · `Azure Monitor` · `Backup & Disaster Recovery` · `LLMs` · `RAG` · `MCP` · `AI Agents`
+`Microsoft Azure` · `Azure Landing Zones` · `Azure Policy` · `Microsoft Entra ID` · `RBAC` · `Hub-and-Spoke Networking` · `Terraform` · `GitHub Actions` · `Azure DevOps` · `Docker` · `Kubernetes` · `Argo CD` · `GitOps` · `Helm` · `Cloud Migration` · `FinOps` · `Azure Monitor` · `Backup & Disaster Recovery` · `LLMs` · `RAG` · `MCP` · `AI Agents`
 
 ---
 
