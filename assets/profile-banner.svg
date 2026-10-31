@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" fill="none">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#081426"/>
+      <stop offset=".58" stop-color="#102B4C"/>
+      <stop offset="1" stop-color="#123E67"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="64" y1="90" x2="570" y2="245" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#69D4FF"/>
+      <stop offset="1" stop-color="#86F7D2"/>
+    </linearGradient>
+    <linearGradient id="node" x1="800" y1="70" x2="1080" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#53C9F5"/>
+      <stop offset="1" stop-color="#63E6BE"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#A8D9F5" fill-opacity=".12"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="320" rx="22" fill="url(#background)"/>
+  <rect width="1200" height="320" rx="22" fill="url(#grid)"/>
+  <path d="M0 278C190 224 365 340 570 278S938 205 1200 268V320H0V278Z" fill="#0A1D34" fill-opacity=".48"/>
+  <path d="M0 278C190 224 365 340 570 278S938 205 1200 268" stroke="#7CD8F4" stroke-opacity=".16"/>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="72" y="106" fill="#9FC5E2" font-size="15" font-weight="600" letter-spacing="3.2">CLOUD PLATFORM ENGINEERING</text>
+    <text x="68" y="164" fill="#F4F9FF" font-size="43" font-weight="700" letter-spacing=".3">RAJESH RANJAN</text>
+    <rect x="72" y="185" width="76" height="3" rx="1.5" fill="url(#accent)"/>
+    <text x="72" y="221" fill="#D6E8F7" font-size="19" font-weight="500">Azure  ·  DevSecOps  ·  Terraform</text>
+    <text x="72" y="252" fill="#AFC9DE" font-size="14">Secure foundations. Governed delivery. Resilient workloads.</text>
+  </g>
+
+  <g stroke="url(#node)" stroke-opacity=".58" stroke-width="2">
+    <path d="M820 155H914"/>
+    <path d="M914 155L1000 91"/>
+    <path d="M914 155L1010 155"/>
+    <path d="M914 155L1000 220"/>
+    <path d="M820 155L770 92"/>
+    <path d="M820 155L770 220"/>
+    <path d="M1000 91H1085"/>
+    <path d="M1010 155H1100"/>
+    <path d="M1000 220H1085"/>
+  </g>
+
+  <g fill="#102B4C" stroke="url(#node)" stroke-width="2">
+    <circle cx="770" cy="92" r="7"/>
+    <circle cx="770" cy="220" r="7"/>
+    <circle cx="1000" cy="91" r="7"/>
+    <circle cx="1010" cy="155" r="7"/>
+    <circle cx="1000" cy="220" r="7"/>
+    <circle cx="1085" cy="91" r="5"/>
+    <circle cx="1100" cy="155" r="5"/>
+    <circle cx="1085" cy="220" r="5"/>
+  </g>
+
+  <g>
+    <circle cx="914" cy="155" r="39" fill="#0D2742" stroke="url(#node)" stroke-width="2"/>
+    <path d="M914 130L933 138V152C933 165 925 175 914 180C903 175 895 165 895 152V138L914 130Z" fill="#153A59" stroke="#8CE9DD" stroke-width="2"/>
+    <path d="M906 153L912 159L923 146" stroke="#D8FFF5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif" fill="#B5D7EE" font-size="10" font-weight="600" letter-spacing="1.2">
+    <text x="742" y="68">HYBRID</text>
+    <text x="1022" y="69">GOVERN</text>
+    <text x="1051" y="137">SECURE</text>
+    <text x="1024" y="251">AUTOMATE</text>
+  </g>
+
+  <path d="M1166 0H1200V34" stroke="#80E5D2" stroke-opacity=".65" stroke-width="2"/>
+  <path d="M0 286V320H34" stroke="#80E5D2" stroke-opacity=".42" stroke-width="2"/>
+</svg>

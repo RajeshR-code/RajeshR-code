@@ -1,6 +1,6 @@
 <div align="center">
 
-# Rajesh Ranjan
+<img src="./assets/profile-banner.svg" alt="Rajesh Ranjan — Azure cloud platform engineering, DevSecOps, and Terraform" width="100%">
 
 ### Azure Cloud Platform · DevSecOps · Infrastructure as Code
 
